@@ -46,7 +46,7 @@ public class AtomicExample2 {
 
     private static void add() {
         /**
-         * AtomicInteger.incrementAndGet()方法的原子性
+         * AtomicLong.incrementAndGet()方法的原子性
          */
         count.incrementAndGet();
         // count.getAndIncrement();
