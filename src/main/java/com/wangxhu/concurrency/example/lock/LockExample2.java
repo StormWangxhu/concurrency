@@ -52,6 +52,7 @@ public class LockExample2 {
     }
 
     private static void add() {
+
         //进行加锁
         lock.lock();
         try {
