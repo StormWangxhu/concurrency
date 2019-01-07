@@ -27,6 +27,7 @@ public class LockExample2 {
 
     /**
      * JUC下的ReentrantLock实现锁
+     * 会发现。ReentrantLock实现的是非公平锁
      */
     public static  final Lock lock = new ReentrantLock();
 
