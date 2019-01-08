@@ -31,7 +31,7 @@ public class CountDownLatchExample2 {
             });
         }
         /**
-         * 此处指定等待的时间,超过这个时间就不管了
+         * 此处指定等待的时间,超过这个时间就不管了,因为test方法会休眠100毫秒
          */
         countDownLatch.await(10, TimeUnit.MILLISECONDS);
         System.out.println("finish");
