@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
  */
 
 /**
- * 线程池的Executors.newCachedThreadPool()
+ * 线程池的 Executors.newFixedThreadPool()
  */
 @Slf4j
 public class ThreadPoolExample2 {
