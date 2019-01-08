@@ -23,9 +23,10 @@ public class FutureTaskExample {
         });
 
         new Thread(futureTask).start();
+        boolean result = futureTask.cancel(true);//取消任务
         System.out.println("do something in main");
         Thread.sleep(1000);
-        String result = futureTask.get();
+//        String result = futureTask.get();
         System.out.println("result："+result);
     }
 }
