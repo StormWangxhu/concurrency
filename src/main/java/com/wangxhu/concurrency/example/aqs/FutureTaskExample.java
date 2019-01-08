@@ -5,6 +5,10 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
+/**
+ * FutureTask类实现了RunnableFuture接口，
+ * RunnableFuture<V> extends  Runnable, Future<V>
+ */
 @Slf4j
 public class FutureTaskExample {
 
